@@ -1,5 +1,5 @@
 # flashback-scraper
-A simple webscraper to download the post histories from users of the Swedish online forum Flashback. 
+A simple webscraper to download the post histories from users of the Swedish online forum Flashback. Originally intended for datamining Swedish text for my personal NLP experiments.
 
 Initialize by listing URLs for Flashback threads in the FB threads text file (separated by newlines), inserting your own login info in the python code (in the scrape_flashback function), and then simply running the program. For each user posting in any of the listed threads, a csv file with that user's posts will by created. 
 
